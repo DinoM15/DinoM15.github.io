@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+body{
+    background-image:url(https://e0.pxfuel.com/wallpapers/454/482/desktop-wallpaper-aesthetic-dinosaur-awesome-cute-aesthetic-dinosaur.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+  text-align:left;
+  font-size:40px;
+  font-weight:bold;
+}
+.menu img{
+    height: 80px;
+}
+.menu a{
+  text-decoration:none;
+  color:black;
+}
+.usuarios{
+  text-align:right;
+  margin-top:-30px;
+  
+}
+.inicio_sesion{
+    border-radius:30px;
+    background-color:white;
+    font-size:20px;
+    width: 10em;  height: 2em;
+    cursor: pointer;
+  }
+  .registro_usuario{
+    border-radius:30px;
+    background-color:black;
+    color:white;
+    font-size:20px;
+    width: 10em;  height: 2em;
+    cursor: pointer;
+  }
+.section_1{
+  background-color:rgb(1, 98, 65);
+  height:30%;
+  margin-left:20px;
+  margin-right:20px;
+  padding-bottom:20px;
+  color:white;
+}
+.section_1 h1{
+  text-align:center;
+  font-size:60px;
+  font-family: 'Amatic SC', cursive;
+}
+.section_1 p{
+  margin-top:-30px;
+  text-align:center;
+  font-size:20px;
+}
+.section_1 p a{
+  color:white;
+  
+}
+.section_2{
+  height:40%;
+  margin-left:20px;
+  margin-right:20px;
+  padding-bottom:20px;
+  margin-top:20px;
+}
+.grid1{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+background-color:rgb(212, 0, 50);
+height:300px;
+}
+
+.imagen_1 { grid-area: 1 / 1 / 2 / 2; }
+.texto_1 { grid-area: 1 / 2 / 2 / 3; }
+.texto_1{
+ text-align:center;
+ color:white;
+}
+.texto_1 h1{
+  font-size:60px;
+  margin-top:1px;
+  font-family: 'Amatic SC', cursive;
+}
+.texto_1 p{
+  margin-top:-30px;
+  text-align:center;
+  font-size:20px;
+}
+.pedidos{
+  border-radius:30px;
+  background-color:red;
+  border-color:white;
+  color:white;
+  cursor: pointer;
+}
+.imagen_1{background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2019/05/Alebrijes-1-e1558455347541.jpg);
+ background-size:cover;
+}
+.section_3{
+  height:40%;
+  margin-left:20px;
+  margin-right:20px;
+  padding-bottom:20px;
+  
+}
+.grid_2{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+background-color:rgb(212, 0, 50);
+height:300px;
+}
+
+.texto_2 { grid-area: 1 / 1 / 2 / 2; }
+.imagen_2 { grid-area: 1 / 2 / 2 / 3; }
+
+.texto_2{
+ text-align:center;
+ color:white;
+}
+.texto_2 h1{
+  font-size:50px;
+  
+  font-family: 'Amatic SC', cursive;
+}
+.texto_2 p{
+  margin-top:-30px;
+  text-align:center;
+  font-size:20px;
+}
+.imagen_2{background-image: url(https://www.elsoldecuernavaca.com.mx/cultura/eac8at-alebrijes-con-alma.jpeg/ALTERNATES/LANDSCAPE_768/alebrijes-con-alma.jpeg);
+ background-size:cover;
+}
+footer{
+  border-top:solid 1px;
+  border-color: grey;
+  margin-left:20px;
+  margin-right:20px;
+}
+footer p{
+    font-size: 15px;
+    text-align: right;
+ 
+    
+    
+}
+
+.logos a img{
+  height:30px;
+  margin:10px;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 1020px) {
+    .menu{
+        font-size:30px;
+    }
+    .inicio_sesion{
+        font-size: 15px;
+        width: 8em;  height: 2em;
+    }
+    .registro_usuario{
+        font-size: 15px;
+        width: 8em;  height: 2em;
+    }
+
+}
+@media screen and (max-width: 710px) {
+    .menu{
+        font-size:20px;
+    }
+    .inicio_sesion{
+        font-size: 15px;
+        width: 7em;  height: 2em;
+    }
+    .registro_usuario{
+        font-size: 15px;
+        width: 7em;  height: 2em;
+    }
+
+}
+@media screen and (max-width: 560px) {
+    .menu{
+        font-size:12px;
+    }
+    .inicio_sesion{
+        margin-top: -50px;
+        font-size: 10px;
+        width: 5em;  height: 2em;
+        text-size-adjust:inherit ;
+    }
+    .registro_usuario{
+        margin-top: -50px;
+        font-size: 10px;
+        width: 5em;  height: 2em;
+
+    }
+
+    .texto_1 h1{
+       font-size: 40px;
+    }
+    .texto_1 p{
+        font-size: 15px;
+        margin-top:0px;
+     }
+     .texto_2 h1{
+        font-size: 40px;
+     }
+     .texto_2 p{
+         font-size: 15px;
+         margin-top:0px;
+      }
+      .section_1 h1{
+        font-size: 40px;
+     }
+     .section_1 p{
+         font-size: 15px;
+         margin-top:0px;
+      }
+      .menu img{
+        height: 40px;
+      }
+
+}
